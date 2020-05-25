@@ -1,0 +1,16 @@
+QWidget{
+    color: white;
+    background-color: #263238;
+    border: 0;
+}
+QToolButton{
+    padding-left: 10px;
+    font-size: 12px;
+}
+QToolButton:hover{
+    border-left: 2px solid #FF5722;
+    background-color: gray;
+}
+QToolButton:pressed{
+    background-color: #d50000;
+}

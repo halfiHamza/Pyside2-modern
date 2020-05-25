@@ -1,0 +1,35 @@
+.QLabel#titleBar {
+    background-color: #263238;
+    color: white;
+    font-family: "Arial Black";
+}
+.QPushButton#closeButton{
+    color: white;
+    background-color: #263238;
+    border: 0;
+    font-size: 15px;
+}
+.QPushButton#closeButton:hover{
+    color: white;
+    background-color: #d50000;
+}
+.QPushButton#minButton{
+    color: white;
+    background-color: #263238;
+    border: 0;
+    font-size: 15px;
+}
+.QPushButton#minButton:hover{
+    color: white;
+    background-color: gray;
+}
+.QPushButton#maxButton{
+    color: white;
+    background-color: #263238;
+    border: 0;
+    font-size: 15px;
+}
+.QPushButton#maxButton:hover{
+    color: white;
+    background-color: gray;
+}

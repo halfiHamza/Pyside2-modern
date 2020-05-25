@@ -1,0 +1,38 @@
+QWidget{
+    background-color: #263238;
+}
+QToolButton{
+    border: 0px;
+    color: white;
+}
+/* Remove button */
+QToolButton#remove_btn{
+    border-bottom: 2px solid red;
+}
+QToolButton#remove_btn:hover{
+    background-color: red;
+}
+QToolButton#remove_btn:pressed{
+    background-color: darkred;
+}
+/* Add button */
+QToolButton#add_btn{
+    border-bottom: 2px solid green;
+}
+QToolButton#add_btn:hover{
+    background-color: green;
+}
+QToolButton#add_btn:pressed{
+    background-color: darkgreen;
+}
+/* Search Box */
+QLineEdit#search{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+}
+QLabel#db_status{
+    color: white;
+}
